@@ -53,6 +53,8 @@ android {
         }
         play {
             dimension = "channel"
+            // Versão pessoal (fork do Francisco): id próprio, instala-se ao lado da app oficial.
+            applicationIdSuffix ".francisco"
             buildConfigField "String", "CHANNEL", '"play"'
         }
     }
